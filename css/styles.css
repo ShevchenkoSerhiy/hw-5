@@ -904,6 +904,9 @@ input {
 .modal-form-input:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
+.modal-form-comment-container {
+  margin-bottom: 16px;
+}
 /* Agreement checkbox */
 .modal-form-agreement-container {
   margin-bottom: 24px;
