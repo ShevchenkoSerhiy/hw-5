@@ -830,7 +830,7 @@ input {
   color: var(--main-title-color);
 }
 .modal-form-container {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-field {
   display: block;
@@ -932,7 +932,7 @@ input {
   height: 16px;
   flex-shrink: 0;
 
-  transition: border var(--anim), background-color var(--main-hover-cl);
+  transition: background-color var(--anim), border var(--anim), fill var(--anim);
 
   fill: transparent;
 
