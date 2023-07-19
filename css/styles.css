@@ -932,7 +932,8 @@ input {
   height: 16px;
   flex-shrink: 0;
 
-  transition: border-color var(--anim);
+  transition: border-color var(--anim), background-color var(--main-hover-cl),
+    opacity var(--main-hover-cl);
 
   fill: transparent;
 
@@ -947,6 +948,7 @@ input {
   + .modal-form-agreement
   > .modal-form-custom-checkbox {
   border-color: var(--main-hover-cl);
+  background-color: var(--main-hover-cl);
   border: none;
   fill: var(--main-btn-bg);
 }
