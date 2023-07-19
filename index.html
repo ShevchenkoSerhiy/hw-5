@@ -478,13 +478,27 @@
             <span class="modal-form-label">Comment</span>
             <textarea
               class="modal-form-textarea"
-              name="text-input"
-              id=""
-              cols="30"
-              rows="10"
+              name="user-comment"
+              rows="8"
               placeholder="Text input"
             >
             </textarea>
+          </label>
+
+          <label class="modal-form-agreement">
+            <input
+              class="visually-hidden modal-form-checkbox"
+              type="checkbox"
+            />
+            <span class="modal-form-custom-checkbox">
+              <svg class="modal-form-checkbox-icon" width="16" height="16">
+                <use href="./images/icons.svg#click"></use>
+              </svg>
+            </span>
+            <span class="modal-form-agreement-desc"
+              >I accept the terms and conditions of the
+              <a href="#" class="modal-form-link">Privacy Policy</a>
+            </span>
           </label>
 
           <button class="hero-button modal-form-submit-btn" type="submit">
